@@ -1,0 +1,19 @@
+{
+  "name": "char-sortinator-deux",
+  "version": "1.0.0",
+  "description": "Sorts a string lexicographically in descending order",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhusufeng/char-sortinator-deux.git"
+  },
+  "author": "Lisa Gee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zhusufeng/char-sortinator-deux/issues"
+  },
+  "homepage": "https://github.com/Zhusufeng/char-sortinator-deux#readme"
+}
