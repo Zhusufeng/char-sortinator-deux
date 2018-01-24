@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Zhusufeng/char-sortinator-deux/issues"
   },
-  "homepage": "https://github.com/Zhusufeng/char-sortinator-deux#readme"
+  "homepage": "https://github.com/Zhusufeng/char-sortinator-deux#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
 }
