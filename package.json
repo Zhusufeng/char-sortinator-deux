@@ -2,7 +2,7 @@
   "name": "char-sortinator-deux",
   "version": "1.0.0",
   "description": "Sorts a string lexicographically in descending order",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "test": "npm test"
   },
