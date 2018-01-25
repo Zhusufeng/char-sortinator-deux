@@ -1,6 +1,6 @@
 const postString = () => {
   const testObj = {
-    input: 'spaghetti'
+    input: 'apple bear cat chat cake dear'
   };
 
   fetch('/sort', {
