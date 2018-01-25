@@ -1,9 +1,5 @@
 const postString = (input) => {
-  const string = {
-    // input: 'aa aaa aaaa1 aaaa2 bear cat chat cake dear eat1 eat2 a apple'
-    // input: 'a aa aaa aaaa1 aaaa2'
-    input
-  };
+  const string = {input};
 
   fetch('/sort', {
     method: 'POST',
