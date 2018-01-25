@@ -5,3 +5,5 @@ const submitForm = (e) => {
   postString(sortFormInputValue);
   sortForm.reset();
 };
+
+module.exports = submitForm;
