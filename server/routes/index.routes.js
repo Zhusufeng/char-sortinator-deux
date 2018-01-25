@@ -1,5 +1,5 @@
-const app = require('../index.js');
-const sortInput = require('../actions/sortInput.js');
+// const app = require('../index.js');
+// const sortInput = require('../actions/sortInput.js');
 
-app.route('/sort')
-  .post(sortInput);
+// app.route('/sort')
+//   .post(sortInput);
