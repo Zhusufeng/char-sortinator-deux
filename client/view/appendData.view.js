@@ -3,3 +3,5 @@ const appendData = (sortedInput) => {
   tr.innerHTML = `<td>${sortFormInputValue}</td><td>${sortedInput}</td>`
   sortTable.appendChild(tr);
 };
+
+module.exports = appendData;
