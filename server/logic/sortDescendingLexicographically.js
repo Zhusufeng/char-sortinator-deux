@@ -6,7 +6,6 @@ const sortDescendingLexicographically = (input) => {
 };
 
 const customSort = (a, b) => {
-  console.log(a, b);
   if(a.charCodeAt(0) > b.charCodeAt(0)) {
     return -1;
   } else if (a.charCodeAt(0) === b.charCodeAt(0)) {
@@ -16,7 +15,6 @@ const customSort = (a, b) => {
     } else {
       len = a.length;
     }
-    console.log(len);
     for (let i = 1; i < len; i++) {
       if (a.charCodeAt(i) > b.charCodeAt(i)) {
         return -1;
