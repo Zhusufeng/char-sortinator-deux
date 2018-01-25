@@ -8,12 +8,12 @@ const postString = () => {
     headers: new Headers({
       'Content-Type': 'application/json'
     }),
-    body: JSON.stringify(testObj);
+    body: JSON.stringify(testObj)
   })
   .then(data => {
     return data.json();
   })
   .then(data => {
     console.log(data);
-  })
+  });
 };
