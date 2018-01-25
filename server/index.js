@@ -6,7 +6,7 @@ const port = 8123;
 const host = 'localhost';
 
 app.use(bodyParser.json());
-app.use(express.static(__dirname + '/../client/public/html'));
+app.use(express.static(__dirname + '/../client'));
 
 app.listen(port, () => {
   console.log(`Server listening on http://${host}:${port}`);
