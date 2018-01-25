@@ -20,3 +20,5 @@ const postString = (input) => {
     appendData(data.sortedString);
   });
 };
+
+module.exports = postString;
