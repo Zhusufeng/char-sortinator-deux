@@ -1,7 +1,7 @@
 const postString = (input) => {
   const string = {input};
 
-  fetch('/sort', {
+  return fetch('/sort', {
     method: 'POST',
     headers: new Headers({
       'Content-Type': 'application/json'
@@ -14,6 +14,7 @@ const postString = (input) => {
   .then(data => {
     console.log(data);
     appendData(data.sortedString);
+    return data.sortedString;
   });
 };
 
