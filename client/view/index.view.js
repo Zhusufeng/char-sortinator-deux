@@ -1,0 +1,1 @@
+console.log('I connected to index.view.js');
