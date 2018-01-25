@@ -17,5 +17,6 @@ const postString = (input) => {
   })
   .then(data => {
     console.log(data);
+    appendData(data.sortedString);
   });
 };
